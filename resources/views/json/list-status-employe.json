@@ -1,0 +1,18 @@
+[
+  {
+    "title" : "Magang",
+    "contract_status": false
+  },
+  {
+    "title" : "Freelance",
+    "contract_status": false
+  },
+  {
+    "title" : "PKWT",
+    "contract_status": true
+  },
+  {
+    "title" : "PKWTT",
+    "contract_status": true
+  }
+]

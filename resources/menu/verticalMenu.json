@@ -1,0 +1,101 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "Transaksi",
+      "icon": "menu-icon tf-icons bx bx-wallet",
+      "slug": "transaction",
+      "submenu": [
+        {
+          "url": "/transaction/summary",
+          "name": "Summary",
+          "slug": "summary"
+        },
+        {
+          "url": "/transaction/pemasukan",
+          "name": "Pemasukan",
+          "slug": "pemasukan"
+        },
+        {
+          "url": "/transaction/pengeluaran",
+          "name": "Pengeluaran",
+          "slug": "pengeluaran"
+        }
+      ]
+    },
+
+    {
+      "name": "Karyawan",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "employee.index",
+      "submenu": [
+        {
+          "url": "/employee",
+          "name": "Karyawan",
+          "slug": "employee.index"
+        },
+        {
+          "url": "/positions",
+          "name": "Posisi",
+          "slug": "position.index"
+        }
+
+      ]
+    },
+    {
+      "name": "Payroll",
+      "icon": "menu-icon tf-icons bx bx-wallet",
+      "slug": "transaction",
+      "submenu": [
+        {
+          "url": "/payroll/contract",
+          "name": "Kontrak",
+          "slug": "contract"
+        },
+        {
+          "url": "/transaction/pemasukan",
+          "name": "Non Contract",
+          "slug": "non-contract"
+        },
+        {
+          "name": "compensations",
+          "slug": "compensations",
+          "submenu": [
+            {
+              "url": "/payroll/compensations?type=allowance",
+              "name": "Allowance",
+              "slug": "allowance"
+            },
+            {
+              "url": "/payroll/compensations?type=deduction",
+              "name": "Deduction",
+              "slug": "deduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lainnya",
+      "icon": "menu-icon tf-icons bx bx-list-plus",
+      "slug": "transaction",
+      "submenu": [
+        {
+          "url": "/lainnya/kategori",
+          "name": "Kategori",
+          "slug": "kategori"
+        },
+        {
+          "url": "/lainnya/sumber",
+          "name": "Sumber",
+          "slug": "sumber"
+        }
+      ]
+    }
+  ]
+}
